@@ -1,0 +1,40 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Universal stuff */
+:root {
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Montserrat", sans-serif;
+}
+
+h1,h2 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+
+p,li {
+    font-family: var(--paragraph-font);
+}
+
+body {
+    outline: 5px solid black;
+    margin: 20px;
+    
+}
+
+/* Nav bar */
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    list-style: none;
+}
+
+

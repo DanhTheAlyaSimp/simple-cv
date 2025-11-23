@@ -1,0 +1,35 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("navigation.css");
+@import url("hero.css");
+@import url("info.css");
+@import url("reviews.css");
+
+
+
+/* Universal stuff */
+
+* {
+  outline: 1px solid red;
+}
+
+:root {
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Montserrat", sans-serif;
+}
+
+h1,h2 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+
+p,li {
+    font-family: var(--paragraph-font);
+}
+
+body {
+    outline: 5px solid black;
+    margin: 20px;
+}
+

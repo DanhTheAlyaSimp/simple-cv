@@ -1,0 +1,36 @@
+/* Reviews */
+.reviews{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 30px;
+    padding-top: 30px;
+    padding-bottom: 6em;
+
+    justify-content: center;
+    min-width: 0;
+    
+}
+
+.review-block-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 20px;
+
+}
+
+
+.review-block {
+    padding: 0.6em;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+
+.review-content {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.professor {
+    opacity: 50%;
+}

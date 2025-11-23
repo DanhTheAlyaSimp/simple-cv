@@ -1,0 +1,63 @@
+/* Information section */
+.information {
+    outline: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: space-between
+    ;
+}
+
+
+.information section {
+    align-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    outline: inherit;
+    width: 30%;
+}
+
+.projects h2{
+    padding-left: 10px;
+    justify-self: center;
+}
+
+.projects ul {
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.projects li + li{
+    border-top: 3px solid black;
+}
+
+.projects p{
+    padding-inline: 10px;
+}
+
+.experiences{
+    padding: 0px;
+    width: 100%;
+}
+
+.experiences__work {
+    
+border-bottom: 3px solid black;
+
+}
+
+.experiences div {
+    padding: 15px;
+}
+
+.education {
+    outline: inherit;
+    padding: 15px;
+
+}

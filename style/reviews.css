@@ -19,7 +19,13 @@
 
 }
 
+@media (max-width: 600px) {
 
+    .review-block-container {
+        display: flex;
+        flex-direction: column;
+}
+}
 .review-block {
     padding: 0.6em;
     border: 3px black solid;

@@ -9,6 +9,13 @@
     ;
 }
 
+@media (max-width: 600px) {
+
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .information section {
     align-content: center;

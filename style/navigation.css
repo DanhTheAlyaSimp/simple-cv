@@ -13,6 +13,9 @@
         display: flex;
         flex-direction: column;
     }
+    .navigation ul {
+        flex-wrap: wrap;
+    }
 
 }
 

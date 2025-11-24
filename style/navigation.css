@@ -31,9 +31,18 @@
 
 }
 
+@media (max-width: 600px) {
+
+    .name{
+        justify-content: center;
+        padding: 0px;
+    }
+
+}
+
 .name img{
     width: 45px;
-    height: auto;
+    height: 45px;
 
     border-radius: 10px;
 
@@ -53,4 +62,10 @@
 
     padding-right: 30px;
     list-style: none;
+}
+
+.navigation ul li:not(:first-child)::before{
+
+    content: "/";
+
 }
